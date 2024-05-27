@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* Импорт шрифта */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Применение шрифта */
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header .mini-logo {
+    width: 50px;
+    height: 50px;
+}
+
+header .logo {
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px; /* Уменьшение пространства между текстом и изображением монеты */
+}
+
+main .main-content {
+    margin: 20px 0;
+    position: relative;
+}
+
+.coin-image {
+    width: 200px;
+    height: 200px;
+    margin: 10px 0; /* Уменьшение пространства между текстом и изображением монеты */
+}
+
+.intro-text {
+    font-size: 1.2em;
+    margin: 20px 0;
+    white-space: pre-line;
+}
+
+button#play-button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0;
+    font-size: 1.5em;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+button#play-button:hover {
+    background-color: #0056b3;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icons .icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.roadmap {
+    margin: 20px 0;
+}
+
+.roadmap h2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.roadmap .roadmap-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.roadmap .roadmap-item {
+    background-color: #333;
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.roadmap .roadmap-item-glow {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.6);
+}
+
+.roadmap .roadmap-item-dim {
+    opacity: 0.7;
+}
+
+.roadmap .roadmap-item-darker {
+    opacity: 0.5;
+}
+
+.roadmap .roadmap-item h3 {
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+
+.roadmap .roadmap-item ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.roadmap .roadmap-item ul li {
+    margin: 5px 0;
+}
+
+/* Медиа-запросы для мобильных устройств */
+@media (max-width: 768px) {
+    header .mini-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    header .logo {
+        font-size: 2em;
+    }
+
+    .coin-image {
+        width: 400px;
+        height: 400px;
+    }
+
+    .intro-text {
+        font-size: 1em;
+    }
+
+    button#play-button {
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+
+    .icons .icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .roadmap h2 {
+        font-size: 1.5em;
+    }
+
+    .roadmap .roadmap-item {
+        width: 90%;
+        padding: 15px;
+    }
+}
