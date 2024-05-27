@@ -31,7 +31,20 @@ header .logo {
     font-size: 3em;
     font-weight: bold;
     color: white;
-    margin-bottom: 10px; /* Уменьшение пространства между текстом и изображением монеты */
+    margin: 20px 0;
+}
+
+header .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+header .icons .icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
 }
 
 main .main-content {
@@ -42,7 +55,7 @@ main .main-content {
 .coin-image {
     width: 200px;
     height: 200px;
-    margin: 10px 0; /* Уменьшение пространства между текстом и изображением монеты */
+    margin: 20px 0;
 }
 
 .intro-text {
@@ -65,19 +78,6 @@ button#play-button {
 
 button#play-button:hover {
     background-color: #0056b3;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.icons .icon {
-    width: 30px;
-    height: 30px;
-    margin: 0 10px;
-    cursor: pointer;
 }
 
 .roadmap {
@@ -145,6 +145,11 @@ button#play-button:hover {
         font-size: 2em;
     }
 
+    header .icons .icon {
+        width: 60px;
+        height: 60px;
+    }
+
     .coin-image {
         width: 400px;
         height: 400px;
@@ -157,11 +162,6 @@ button#play-button:hover {
     button#play-button {
         padding: 10px 20px;
         font-size: 1.2em;
-    }
-
-    .icons .icon {
-        width: 60px;
-        height: 60px;
     }
 
     .roadmap h2 {
