@@ -160,8 +160,8 @@ button#play-button:hover {
     }
 
     .icons .icon {
-        width: 22.5px;
-        height: 22.5px; /* Уменьшение значков на 25% */
+        width: 25px;
+        height: 25px; /* Уменьшение значков на 25% */
     }
 
     .roadmap h2 {
