@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (tiktokLink) {
         tiktokLink.addEventListener("click", function(event) {
             event.preventDefault();
-            window.open("https://www.tiktok.com/@empirecoin?_t=8mfv3gKGH0T&_r=1", "_blank");
+            window.open("https://www.tiktok.com/@empirecoin_crypto?_t=8n1O2ZJaeYK", "_blank");
         });
     }
 
