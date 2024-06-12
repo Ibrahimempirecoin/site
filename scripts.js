@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (playButton) {
         playButton.addEventListener("click", function() {
-            window.location.href = "https://t.me/Empirecoin_bo";
+            window.location.href = "https://t.me/Empirecoin";
         });
     }
 });
